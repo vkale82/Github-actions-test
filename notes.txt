@@ -1,0 +1,2 @@
+ssh key generated to connect from local pc :
+passprasses password : varsha12
