@@ -14,4 +14,14 @@ jobs:
 
       - name: Log Greeting Time
         run: echo "${{ steps.greet.outputs.time }}"
+      - name: List files
+        run: |
+          pwd
+          ls -a
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: List files after checkout
+        run: |
+          pwd
+          ls -a
 
